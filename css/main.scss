@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+$yellow : #fbaf3f;
+$blue : #4e6086;
+$grey : #b7b7b7;
+$darkgrey : #818181;
+$black : #000000;
+$lightgrey : #f8f8f8;
+
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+//header
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+
+    //Left
+    .left {
+        .logo-container {
+            height: 100px;
+            width: 100px;
+            cursor: pointer;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+    }
+
+    //Right
+    nav {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            a {
+                text-decoration: none;
+
+                li {
+                    list-style: none;
+                    padding: 15px;
+                    text-transform: uppercase;
+                    color: $grey;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 600;
+                }
+
+                li:hover {
+                    color: $blue;
+                }
+            }
+        }
+    }
+}
+
+//footer
+footer{
+    background-color: $lightgrey;
+    margin-top:100px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    .left{
+        width:500px;
+        margin-top:40px;
+        margin-bottom: 10px;
+        .logo-container{
+            width:200px;
+            height:150px;
+            img{
+                height:100%;
+                width:100%;
+                object-fit: contain;
+            }
+        }
+        .info{
+            width:50%;
+            display: inline-block;
+            font-size:0.6rem;
+            font-weight:400;
+        }
+    }
+    .ul-list{
+        .list{
+            margin-left:100px;
+            margin-top: 50px;
+            li{
+                list-style:none;
+                color: $grey;
+                font-weight: 600;
+                font-size: 0.6rem;
+                padding-top:10px;
+                &:first-child{
+                    color:$blue;
+                    font-weight: 600;
+                    font-size: 1rem;
+                }
+            }
+            i{
+                color:black;
+            }
+        }
+        .details{
+            li{
+                padding-top: 20px;
+            }
+        }
+    }
+
+}

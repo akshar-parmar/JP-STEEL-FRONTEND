@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+$yellow : #fbaf3f;
+$blue : #4e6086;
+$grey : #b7b7b7;
+$darkgrey : #818181;
+$black : #000000;
+$lightgrey : #f8f8f8;
+
+
+//header from main.scss
+
+//heading
+.heading{
+    .main-heading{
+        width: 12%;
+        line-height: 3rem;
+        font-weight: 800;
+        font-size: 2.5rem;
+        margin-left:7%;
+    }
+    hr{
+     
+        width:85%;
+        text-align: center;
+        margin: 0 60px;
+    }
+}
+
+//banner section
+.banner-section{
+    .heading{
+        margin-top: 50px;
+        .main-heading{
+            font-weight:700;
+            font-size: 1.7rem;
+            margin-left:50px;
+        }
+        .yellow-line{
+            height: 5px;
+            width:70px;
+            background-color: $yellow;
+            margin-left: 50px;
+        }
+    }
+    .about-us-container{
+        display:flex;
+        flex-wrap:wrap;
+        margin-top:50px;
+        align-items: center;
+       
+        .left,.right{
+            flex:1;
+            padding-left:50px;
+            padding-right:60px;
+        }
+        .left{
+            
+            }
+            .info{
+                width:90%;
+                display: inline-block;
+                font-size:0.9rem;
+                font-weight:400;
+            }
+        }
+        .right{
+            .img-container{
+                margin-top:20px;
+                width:700px;
+                height:400px;
+                img{
+                    height:100%;
+                    width:100%;
+                    object-fit:contain;
+                }
+            }
+        }
+    }
+
+//Our-certificates
+.certificate-container{
+    .heading{
+        margin-top: 70px;
+        .main-heading{
+            font-weight:700;
+            font-size: 1.7rem;
+            margin-left:50px;
+            width:50%;
+        }
+        .yellow-line{
+            height: 5px;
+            width:140px;
+            background-color: $yellow;
+            margin-left: 50px;
+        }
+    }
+
+    .img-container{
+        width: 1500px;
+        height: 572px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 30px 50px;
+        }
+    }
+}
+
+//footer from main.scss

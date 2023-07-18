@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.heading .main-heading {
+  width: 12%;
+  line-height: 3rem;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-left: 7%;
+}
+
+.heading hr {
+  width: 85%;
+  text-align: center;
+  margin: 0 60px;
+}
+
+.section {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #4e6086;
+  height: 2127px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-item: center;
+}
+
+.section .left .main {
+  font-weight: 600;
+  font-size: small;
+  color: white;
+  padding: 40px 20px;
+}
+
+.section .left .main li {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.section .left .main .sub-main {
+  font-weight: 400;
+  font-size: 0.7rem;
+  padding-left: 20px;
+}
+
+.section .left .main .sub-main li {
+  padding-top: 5px;
+}
+
+.section .right {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  background-color: #f8f8f8;
+}
+
+.section .right .content {
+  margin: 20px 30px;
+}
+
+.section .right .content h2 {
+  font-weight: 700;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.section .right .content .text {
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: small;
+}
+
+.section .right .content .mid {
+  color: #fbaf3f;
+  font-size: medium;
+}
+/*# sourceMappingURL=our-product.css.map */
